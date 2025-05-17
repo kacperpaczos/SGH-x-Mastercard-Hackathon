@@ -181,3 +181,5 @@ sgh-x-mastercard-hackathon-may-2025.zip
 
 # Duże pliki graficzne
 *.png
+data/transactions.json
+data/transactions.json
