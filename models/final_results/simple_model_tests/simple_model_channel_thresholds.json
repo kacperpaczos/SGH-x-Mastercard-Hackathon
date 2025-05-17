@@ -1,0 +1,20 @@
+{
+    "in-store": {
+        "optimal_threshold": 0.5,
+        "f1": 0.8189655172413793,
+        "fraud_rate": 0.08464627741736175,
+        "count": 3237
+    },
+    "mobile": {
+        "optimal_threshold": 0.4,
+        "f1": 0.8117154811715481,
+        "fraud_rate": 0.08126477541371159,
+        "count": 3384
+    },
+    "online": {
+        "optimal_threshold": 0.5,
+        "f1": 0.8083333333333333,
+        "fraud_rate": 0.08464042616158626,
+        "count": 3379
+    }
+}

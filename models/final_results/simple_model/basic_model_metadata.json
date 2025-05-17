@@ -1,0 +1,42 @@
+{
+    "model_name": "basic_model",
+    "features": [
+        "amount",
+        "channel",
+        "device",
+        "payment_method",
+        "is_international",
+        "session_length_seconds",
+        "hour",
+        "day_of_week",
+        "latitude",
+        "longitude",
+        "age",
+        "sex",
+        "risk_score",
+        "category",
+        "trust_score",
+        "has_fraud_history"
+    ],
+    "numerical_features": [
+        "amount",
+        "is_international",
+        "session_length_seconds",
+        "hour",
+        "day_of_week",
+        "latitude",
+        "longitude",
+        "age",
+        "risk_score",
+        "trust_score",
+        "has_fraud_history"
+    ],
+    "categorical_features": [
+        "channel",
+        "device",
+        "payment_method",
+        "sex",
+        "category"
+    ],
+    "sample_size": 50000
+}
